@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grade Calculator</title>
 </head>
+
 <body>
-    <h1>Grade Calculator</h1> <hr>
+    <h1>Grade Calculator</h1>
+    <hr>
 
     <form onsubmit="calc(); return false;">
 
-       
-     
+
+
         <label for="na">Enter Your Name</label>
         <input type="text" name="na" id="na" placeholder="Name">
         <label for="tm">Total Marks</label>
@@ -22,36 +25,47 @@
 
     </form>
 
-    
-<h1 id="re">Percentage-Based Grade Calculator with Criteria</h1>
+<div>
+    <h1 id="re">Percentage-Based Grade Calculator with Criteria</h1>
     <p>
-     <ol>
+    <ol>
 
         <li>Percentage >= 90%: A+ <br>
             If the percentage obtained by a student is 90% or above, they will be assigned the grade A+.</li>
-     
 
-     <li>Percentage between 80% and 89%: A  <br>
-        If the percentage obtained by a student is between 80% and 89% (inclusive), they will be assigned the grade A.</li>
-     <li>Percentage between 70% and 79%: B   <br>
-        If the percentage obtained by a student is between 70% and 79% (inclusive), they will be assigned the grade B.</li>
-     <li>Percentage between 60% and 69%: C   <br>
-        If the percentage obtained by a student is between 60% and 69% (inclusive), they will be assigned the grade C.</li>
-     <li>Percentage between 50% and 59%: D    <br>
-        If the percentage obtained by a student is between 50% and 59% (inclusive), they will be assigned the grade D.</li>
-    
-    <li>Percentage < 50%: F (Fail)  <br>
-        If the percentage obtained by a student is less than 50%, they will be assigned the grade F, indicating failure.</li>
+
+        <li>Percentage between 80% and 89%: A <br>
+            If the percentage obtained by a student is between 80% and 89% (inclusive), they will be assigned the grade
+            A.</li>
+        <li>Percentage between 70% and 79%: B <br>
+            If the percentage obtained by a student is between 70% and 79% (inclusive), they will be assigned the grade
+            B.</li>
+        <li>Percentage between 60% and 69%: C <br>
+            If the percentage obtained by a student is between 60% and 69% (inclusive), they will be assigned the grade
+            C.</li>
+        <li>Percentage between 50% and 59%: D <br>
+            If the percentage obtained by a student is between 50% and 59% (inclusive), they will be assigned the grade
+            D.</li>
+
+        <li>Percentage < 50%: F (Fail) <br>
+                If the percentage obtained by a student is less than 50%, they will be assigned the grade F, indicating
+                failure.</li>
     </ol>
-</p>
-    <p>To calculate the grade for a specific student, you need to determine their percentage score based on their performance in the subject or course. Once you have their percentage, you can use the above criteria to assign the appropriate grade.
+    </p>
+    <p id="re">To calculate the grade for a specific student, you need to determine their percentage score based on their
+        performance in the subject or course. Once you have their percentage, you can use the above criteria to assign
+        the appropriate grade.
 
-        For example, if a student scores 85% in a subject, their percentage falls between 80% and 89%, so they will receive the grade A. However, if a student scores 45%, their percentage is below 50%, so they will be assigned the grade F, indicating a failure.
-        
-        This grade calculator provides a clear and consistent way to assess students' performance based on their percentage scores, allowing for easy determination of their grades in a particular subject or course.</p>
+        For example, if a student scores 85% in a subject, their percentage falls between 80% and 89%, so they will
+        receive the grade A. However, if a student scores 45%, their percentage is below 50%, so they will be assigned
+        the grade F, indicating a failure.
 
-    
+        This grade calculator provides a clear and consistent way to assess students' performance based on their
+        percentage scores, allowing for easy determination of their grades in a particular subject or course.</p>
 
+
+    </div>
     <script src="./index.js"></script>
 </body>
+
 </html>

@@ -12,18 +12,18 @@
     <h1>Body Mass Index (BMI) Calculator</h1>
     <hr>
 
-    <form>
+    <form onsubmit="BMI();return false;">
 
         <label for="weight">Enter Your Weight(kg)</label>
         <input type="number" name="weight" id="weight" placeholder="kg">
         <label for="height">Enter Your Height(cm)</label>
         <input type="number" name="height" id="height" placeholder="cm">
-        <button type="submit" onclick="BMI()">Calculate</button>
+        <button type="submit" >Calculate</button>
 
     </form>
 
     <hr>
-    <h2>What is Body Mass Index (BMI)?</h2>
+    <h2 id="ha">What is Body Mass Index (BMI)?</h2>
     <p>BMI stands for Body Mass Index. It is a numerical value that provides an indication of an individual's body fat
         based on their weight and height. The BMI formula is calculated as follows: <br>
 
