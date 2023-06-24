@@ -16,19 +16,18 @@
         <button type="submit">Show Table</button>
     </form>
 
-    <h1>Table of a Number is</h1> 
+    <h1>Table of a Number is</h1>
     <div id="re"></div>
 
 
-    <script> 
-    function table() {
-    let num = +document.querySelector("#num").value;
-    for ( let i = 1 ; i <= 10 ; i++ ) {
-        document.querySelector("#re").innerHTML+=` <h3>${num} x ${i} = ${num * i} <br></h3>`;
-    }
-}
-
-
+    <script>
+        function table() {
+            let num = +document.querySelector("#num").value;
+            document.querySelector("#re").innerHTML=``; 
+            for (let i = 1; i <= 10; i++) {
+                document.querySelector("#re").innerHTML += ` <h3>${num} x ${i} = ${num * i} <br></h3>`;
+            }
+        }
     </script>
 </body>
 
